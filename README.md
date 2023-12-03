@@ -11,13 +11,6 @@
     <br/>
     <br/>
     <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4">View Demo</a>
-    .
-    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4/issues">Report Bug</a>
-    .
-    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4/issues">Request Feature</a>
   </p>
 </p>
 
@@ -46,9 +39,6 @@ _Teknologi yang digunakan untuk proyek ini :_
 - _Template Admin Mazer_
 - Bootstrap 5.3.x
 - _Mazer Extensions (Datatables, jQuery, etc.), sudah bundel dengan Mazer template_
-
-* []()
-* []()
 
 ## Getting Started
 
