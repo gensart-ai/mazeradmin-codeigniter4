@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gensart | Lupa Password</title>
+    <title>Gensart | Reset Password</title>
     <link rel="stylesheet" href="<?= base_url('assets/css/app.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/app-dark.css'); ?>">
     <style>
@@ -76,12 +76,24 @@
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
                     <img class="mb-4 w-auto h-auto" src="<?= base_url('assets/img/logo/logo.png'); ?>" alt="Logo" loading="lazy">
-                    <h1>Lupa Password</h1>
-                    <p class="fs-5 mb-5">Masukkan alamat email pada akun anda untuk mengirim link reset password</p>
-
-                    <form action="index.html">
+                    <h1>Reset Password</h1>
+                    <p class="fs-5 mb-5">Masukkan kata sandi baru untuk akun anda</p>
+                    <form action="index.html" method="POST">
+                        <!-- hidden inputs here -->
                         <div class="form-group position-relative has-icon-left mb-4">
-                            <input type="email" class="form-control form-control-xl" placeholder="Email">
+                            <input type="email" class="form-control form-control-xl" disabled value="oke@mail.com">
+                            <div class="form-control-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="form-group position-relative has-icon-left mb-4">
+                            <input type="password" class="form-control form-control-xl" placeholder="Kata Sandi Baru">
+                            <div class="form-control-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="form-group position-relative has-icon-left mb-4">
+                            <input type="password" class="form-control form-control-xl" placeholder="Konfirmasi Kata Sandi Baru">
                             <div class="form-control-icon">
                                 <i class="bi bi-envelope"></i>
                             </div>
@@ -106,6 +118,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 

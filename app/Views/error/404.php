@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman tidak ditemukan - 404</title>
-    <link rel="stylesheet" href="./assets/compiled/css/app.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/app.css'); ?>">
     <style>
         #error {
             background-color: #ebf3ff;
@@ -28,23 +28,21 @@
             background-color: #151521;
         }
     </style>
+    <script src="<?= base_url('assets/js/init-theme.js'); ?>"></script>
 </head>
 
 <body>
-    <script src="assets/static/js/initTheme.js"></script>
     <div id="error">
         <div class="error-page container">
             <div class="col-md-8 col-12 offset-md-2">
                 <div class="text-center">
-                    <img class="img-error" src="./assets/compiled/svg/error-404.svg" alt="Not Found">
+                    <img class="img-error" src="<?= base_url('assets/img/media/error-404.svg'); ?>" alt="Not Found">
                     <h1 class="error-title">Oops.</h1>
                     <p class='fs-5 text-gray-600'>Halaman tidak ditemukan</p>
                     <a href="index.html" class="btn btn-lg btn-outline-primary mt-3">Kembali ke halaman utama</a>
                 </div>
             </div>
         </div>
-
-
     </div>
 </body>
 

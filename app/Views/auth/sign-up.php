@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - Mazer Admin Dashboard</title>
-    <link rel="stylesheet" href="./assets/compiled/css/app.css">
-    <link rel="stylesheet" href="./assets/compiled/css/app-dark.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/app.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/app-dark.css'); ?>">
     <style>
         body {
             background-color: var(--bs-body-bg);
@@ -67,16 +67,15 @@
             background: url(./png/4853433.png), linear-gradient(90deg, #2d499d, #3f5491);
         }
     </style>
+    <script src="<?= base_url('assets/js/init-theme.js'); ?>"></script>
 </head>
 
 <body>
-    <script src="assets/static/js/initTheme.js"></script>
     <div id="auth">
-
         <div class="row h-100">
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
-                    <img class="w-25 h-25 mb-5" src="./assets/compiled/png/logo.png" alt="Logo">
+                    <img class="w-auto h-auto mb-5" src="<?= base_url('assets/img/logo/logo.png'); ?>" alt="Logo" loading="lazy">
                     <h1>Buat Akun</h1>
                     <p class="auth-subtitle mb-5">Daftarkan akun anda sekarang</p>
 
@@ -110,7 +109,7 @@
                     </form>
                     <div class="text-center mt-5 fs-5">
                         <p class='text-gray-600'>
-                            Sudah punya akun? <a href="auth-login.html" class="font-bold">Login</a>
+                            Sudah punya akun? <a href="#" class="font-bold">Login</a>
                         </p>
                     </div>
                 </div>

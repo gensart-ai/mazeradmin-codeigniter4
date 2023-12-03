@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gensart | Login</title>
-    <link rel="stylesheet" href="./assets/compiled/css/app.css">
-    <link rel="stylesheet" href="./assets/compiled/css/app-dark.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url('assets/css/app.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/app-dark.css'); ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" crossorigin="anonymous">
     <style>
         body {
             background-color: var(--bs-body-bg);
@@ -70,21 +70,23 @@
             background: url(./png/4853433.png), linear-gradient(90deg, #2d499d, #3f5491);
         }
     </style>
+    <script src="<?= base_url('assets/js/init-theme.js'); ?>"></script>
 </head>
 
 <body>
-    <script src="assets/static/js/initTheme.js"></script>
     <div id="auth">
         <div class="row h-100">
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
                     <div class="mb-5">
-                        <a href="index.html"><img class="w-25 h-25" src="./assets/compiled/png/logo.png" alt="Logo"></a>
+                        <a href="#">
+                            <img class="w-auto h-auto" src="<?= base_url('assets/img/logo/logo.png'); ?>" alt="Logo" loading="lazy">
+                        </a>
                     </div>
                     <h1>Aplikasi {Nama}</h1>
                     <p class="auth-subtitle mb-3">Login dengan akun anda</p>
 
-                    <form action="index.html">
+                    <form action="#">
                         <div class="form-group position-relative has-icon-left mb-4">
                             <input type="text" class="form-control form-control-xl" placeholder="Username">
                             <div class="form-control-icon">
@@ -101,7 +103,7 @@
                     </form>
                     <hr>
                     <div class="text-center fs-5 mt-5">
-                        <p>Lupa password? <a href="auth-register.html" class="font-bold">Klik disini</a></p>
+                        <p>Lupa password? <a href="#" class="font-bold">Klik disini</a></p>
                     </div>
                 </div>
             </div>
