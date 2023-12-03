@@ -1,67 +1,67 @@
-# CodeIgniter 4 Application Starter
+<br/>
+<p align="center">
+  <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## What is CodeIgniter?
+  <h3 align="center">MazerCI4 Admin Template</h3>
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+  <p align="center">
+    Mazer Bootstrap 5 Admin Template powered by Codeigniter 4.x
+    <br/>
+    <br/>
+    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4">View Demo</a>
+    .
+    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4/issues">Report Bug</a>
+    .
+    <a href="https://github.com/gensart-ai/mazeradmin-codeigniter4/issues">Request Feature</a>
+  </p>
+</p>
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+![Contributors](https://img.shields.io/github/contributors/gensart-ai/mazeradmin-codeigniter4?color=dark-green) ![Forks](https://img.shields.io/github/forks/gensart-ai/mazeradmin-codeigniter4?style=social) ![Stargazers](https://img.shields.io/github/stars/gensart-ai/mazeradmin-codeigniter4?style=social) ![Issues](https://img.shields.io/github/issues/gensart-ai/mazeradmin-codeigniter4) ![License](https://img.shields.io/github/license/gensart-ai/mazeradmin-codeigniter4) 
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## About The Project
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+For the first, I appreciate to <a href="https://saugi.me">Ahmad Saugi</a> who made this <a href="https://zuramai.github.io/mazer/demo/index.html">Mazer Admin Template</a>, this admin template have fascinating and minimalist UI, but most importantly, it's open source!  I like that :heart: . So, to the content, I integrate CodeIgniter 4 app with this Mazer template. I'm glad if there are any suggestions, or any feedback from you reader ! :smile:
 
-## Installation & updates
+_- - Indonesia text - -_
+_Untuk pertama, saya mengapresiasi <a href="https://saugi.me">Ahmad Saugi</a> yang membuat <a href="https://zuramai.github.io/mazer/demo/index.html">Mazer Admin Template</a>, template admin ini memiliki UI yang minimalis dan keren, terlebih lagi, open source! Saya menyukainya :heart:. Jadi, kembali ke pembahasan, Saya mengintegrasi/menyambungkan teknologi CodeIgniter 4 dengan template Mazer ini. Siapapun boleh menggunakannya. Saya senang jika ada saran atau masukan dari anda, pembaca ! :smile:_
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+## Built With
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Tech used in this :
+- Codeigniter 4
+- PHP 8.1.1 (I use this PHP version)
+- Mazer Admin Template
+- Bootstrap 5.3.x
+- Mazer Extensions (Datatables, jQuery, etc.), bundled with Mazer template
 
-## Setup
+_- - Indonesian Text - -_
+_Teknologi yang digunakan untuk proyek ini :_
+- _Codeigniter 4_
+- _PHP 8.1.1 (Saya menggunakan PHP versi ini)_
+- _Template Admin Mazer_
+- Bootstrap 5.3.x
+- _Mazer Extensions (Datatables, jQuery, etc.), sudah bundel dengan Mazer template_
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+* []()
+* []()
 
-## Important Change with index.php
+## Getting Started
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+_English only_
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+I use Composer for the package manager (it's easy using this you know, go install it!)
 
-**Please** read the user guide for a better explanation of how CI4 works!
+For the start, you can clone this project. Make sure you have PHP 7.4++ installed on your device, I recommend using PHP 8 because it does not hurt to upgrade tho :smile:
 
-## Repository Management
+## Usage
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Coming soon ! :smile:
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+## License
 
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Distributed under the MIT License. See [LICENSE](https://github.com/gensart-ai/mazeradmin-codeigniter4/blob/main/LICENSE.md) for more information.
