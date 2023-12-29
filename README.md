@@ -48,10 +48,6 @@ I use Composer for the package manager (it's easy using this you know, go instal
 
 For the start, you can clone this project. Make sure you have PHP 7.4++ installed on your device, I recommend using PHP 8 because it does not hurt to upgrade tho :smile:
 
-## Usage
-
-Coming soon ! :smile:
-
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/gensart-ai/mazeradmin-codeigniter4/blob/main/LICENSE.md) for more information.
